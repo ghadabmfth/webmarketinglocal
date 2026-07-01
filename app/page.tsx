@@ -46,9 +46,11 @@ export default function AccueilPage() {
             <h1 className="hero-title">
               <span style={{ color: "var(--ink)" }}>Votre </span>
               <span style={{ color: "var(--teal)" }}>visibilité </span>
+              <br />
               <span style={{ color: "var(--ink)" }}>sur </span>
               <span style={{ color: "var(--amber)" }}>Google</span>
               <span style={{ color: "var(--ink-2)" }}>, </span>
+              <br />
               <span style={{ color: "var(--ink)" }}>gérée pour </span>
               <span style={{ color: "var(--coral)" }}>vous</span>
               <span style={{ color: "var(--ink)" }}> !</span>
