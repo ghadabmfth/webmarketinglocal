@@ -1159,7 +1159,7 @@ p { margin: 0; }
   transition: opacity .2s, filter .2s;
 }
 .marquee .cl:hover { opacity: 1; filter: grayscale(0); }
-.marquee .cl img { max-height: 38px; max-width: 150px; width: auto; object-fit: contain; }
+.marquee .cl img { max-height: 45px; max-width: 200px; width: auto; object-fit: contain; }
 
 /* ============================================================
    Trust section — "Un cadre clair, zéro complexité"
@@ -4966,8 +4966,6 @@ body.page-a4[data-s="a4-16"], body.page-a4 [data-s="a4-16"] { color: #162435; }
 section.problem {
     padding: 50px 0px;
 }
-
-a.btn.pack-btn-card {}
 
 .pack-btn-card .btn-arrow {
     border-color: #23768d;
