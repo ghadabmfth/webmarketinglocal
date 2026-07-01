@@ -202,7 +202,7 @@ export default function AgencePage() {
               <span className="hm-corner hm-corner--tr" />
               <span className="hm-corner hm-corner--bl" />
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img id="agence-bureau" className="histoire-photo" src="/assets/agence-bureau.jpg" alt="Photo de l'équipe ou des bureaux" loading="lazy" />
+              <img id="agence-bureau" className="histoire-photo" src="/assets/Photo-lagence-marketinglocal.jpg" alt="Photo de l'équipe ou des bureaux" loading="lazy" />
             </div>
           </div>
         </div>

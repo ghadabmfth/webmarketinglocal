@@ -5083,3 +5083,43 @@ span.tm-corner.tm-corner--bl {
     color: #fff;
     opacity: .35;
 }
+
+.founder-card.reveal {
+    width: fit-content;
+    margin: auto;
+}
+
+.hs-amber .lbl {
+    color: white;
+}
+
+.stat--amber .num,.stat--amber .lbl {
+    color: white;
+}
+
+.rea-filterbar.reveal.in {
+    background: transparent;
+    border: none;
+}
+
+.container h1 {
+    font-weight: 800;
+    font-size: clamp(34px, 5vw, 55px);
+}
+
+.hero-breadcrumb a, .hero-breadcrumb .bc-current {
+    font-weight: 600!important;
+}
+
+span.bc-current {
+    color: #738288!important;
+}
+
+.rm-media {
+    display: none;
+}
+
+a.blog-media {aspect-ratio: 4 / 2;}
+
+.article-container {
+}

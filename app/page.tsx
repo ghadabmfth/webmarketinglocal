@@ -379,7 +379,7 @@ export default function AccueilPage() {
               <span className="tm-corner tm-corner--tr" />
               <span className="tm-corner tm-corner--bl" />
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img id="trust-team" className="trust-photo" src="/assets/hero-jchombart.png" alt="Jacquelin Chombart De Lauwe — Marketing Local" loading="lazy" />
+              <img id="trust-team" className="trust-photo" src="/assets/Photo-lagence-marketinglocal.jpg" alt="Jacquelin Chombart De Lauwe — Marketing Local" loading="lazy" />
               <div className="trust-pill">
                 <span className="tp-dot" />
                 <span className="tp-txt"><b>Disponibles cette semaine</b><span>Réponse sous 48h garantie</span></span>
