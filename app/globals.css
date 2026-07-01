@@ -5051,3 +5051,11 @@ article.proj-card.in-view {
 section#projets {
     padding-bottom: 50px;
 }
+
+.histoire {
+    background: #f6fafb;
+}
+
+.histoire-grid span.eyebrow {
+    color: #23768d;
+}
