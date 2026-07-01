@@ -4948,7 +4948,7 @@ body.page-a4[data-s="a4-16"], body.page-a4 [data-s="a4-16"] { color: #162435; }
 }
 
 .section {
-    padding: 100px 50px;
+    padding: 100px 50px!important;
 }
 
 .section .container {
