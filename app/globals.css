@@ -4941,3 +4941,113 @@ body.page-a4[data-s="a4-16"], body.page-a4 [data-s="a4-16"] { color: #162435; }
 .rea-stat b.st-coral { color: #E5203C; }
 .rea-stat b.st-amber { color: #F7B131; }
 @media (max-width: 560px){ .hero-stats-row { gap: 30px; } }
+
+/* ===== Manual design overrides ===== */
+.chip-rank span {
+    color: #0d1b2e!important;
+}
+
+.section {
+    padding: 100px 50px;
+}
+
+.section .container {
+    padding: 0px!important;
+}
+
+.outcome-grid {
+    align-items: center;
+}
+
+.outcome {
+    padding-top: 0px;
+}
+
+section.problem {
+    padding: 50px 0px;
+}
+
+a.btn.pack-btn-card {}
+
+.pack-btn-card .btn-arrow {
+    border-color: #23768d;
+}
+
+aside.pack-card.reveal.d1.in {
+    background: #23768d;
+}
+
+.pack-btn-left {
+    margin-top: 40px;
+}
+
+ul.pack-list li:last-child, ul.pack-list li.d2 {
+    border-bottom: 0px;
+}
+
+ul.pack-list {
+    color: #41575d !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    line-height: 1.8 !important;
+}
+
+.outcome-copy h2 {
+    font-size: clamp(34px, 3.6vw, 48px);
+}
+
+.pack-title {
+    font-size: clamp(34px, 3.6vw, 48px);
+}
+
+.trust-title {
+    font-size: clamp(34px, 3.6vw, 48px);
+}
+
+.section-head h2 {
+    font-size: clamp(34px, 3.6vw, 48px)!important;
+}
+
+.cta-actions .btn-arrow {
+    border-color: #23768d;
+}
+
+.scrolled .logo-svg {
+    height: 56px!important;
+}
+
+svg.logo-svg {
+    height: 56px;
+}
+
+.reviews {
+    max-width: 100%;
+}
+
+.proj-head .eyebrow {
+    color: #e5203c;
+}
+
+a.btn {
+    font-size: 16px;
+}
+
+.clients-eyebrow {
+    text-align: left;
+}
+
+.section--wash {
+    background: #fef7ea;
+}
+
+.section--wash span.eyebrow {
+    color: #f7b131;
+}
+
+article.proj-card.in-view {
+    box-shadow: none;
+}
+
+section#projets {
+    padding-bottom: 50px;
+}
