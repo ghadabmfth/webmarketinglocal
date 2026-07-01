@@ -183,7 +183,12 @@ export default function NotreOffrePage() {
             </article>
             <article className="pain-card reveal">
               <div className="pain-ic" data-s="no-58">
-                <svg id="fi_15713432" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m202.33 53.44a80.7 80.7 0 0 0 -18.8 22.06l-161.24 278.08a81.62 81.62 0 0 0 29.58 111.22 81.62 81.62 0 0 0 111.22-29.58l138.59-239c-30.58-43.9-75.19-107.93-99.35-142.78z" fill="#febd00"></path><circle cx="92.69" cy="394.4" fill="#25a84a" r="81.38"></circle><rect fill="#2e8add" height="484.21" rx="81.38" transform="matrix(-.866 .5 -.5 -.866 751.31 309.71)" width="162.76" x="252.78" y="13.4"></rect></svg>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="12" r="9.4" fill="#F7B131"></circle>
+                  <path d="M7 9.2 9.6 11M9.6 9.2 7 11" stroke="#2A1A00" stroke-width="1.5" stroke-linecap="round"></path>
+                  <path d="M14.4 9.2 17 11M17 9.2 14.4 11" stroke="#2A1A00" stroke-width="1.5" stroke-linecap="round"></path>
+                  <path d="M8 16.2c1-1.2 2-1.2 2.7-.1.6 1 1.7 1 2.6 0 .7-.8 1.7-.8 2.7.1" stroke="#2A1A00" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
               </div>
               <h4 data-s="no-59">Vous ne savez pas ce qui fonctionne</h4>
               <p data-s="no-60">Pas de visibilité sur ce que rapportent vos actions digitales, ni sur quoi agir en priorité.</p>
@@ -345,23 +350,7 @@ export default function NotreOffrePage() {
             <article className="opt-card opt-card--ads reveal d1">
               <div className="opt-head">
                 <span className="opt-ic opt-ic--google">
-                  <svg  width="28" height="28" viewBox="0 0 24 24" fill="none">
-                    <g>
-                      <path class="st0" d="M84.5,28.57c2.4-6.3,5.7-12.1,10.6-16.8c19.6-19.1,52-14.3,65.3,9.7c10,18.2,20.6,36,30.9,54
-                        c17.2,29.9,34.6,59.8,51.6,89.8c14.3,25.1-1.2,56.8-29.6,61.1c-17.4,2.6-33.7-5.4-42.7-21c-15.1-26.3-30.3-52.6-45.4-78.8
-                        c-0.3-0.6-0.7-1.1-1.1-1.6c-1.6-1.3-2.3-3.2-3.3-4.9c-6.7-11.8-13.6-23.5-20.3-35.2c-4.3-7.6-8.8-15.1-13.1-22.7
-                        c-3.9-6.8-5.7-14.2-5.5-22C82.2,36.17,82.7,32.17,84.5,28.57" fill="#3C8BD9"/>
-                      <path class="st1" d="M84.5,28.57c-0.9,3.6-1.7,7.2-1.9,11c-0.3,8.4,1.8,16.2,6,23.5c11,18.9,22,37.9,32.9,56.9c1,1.7,1.8,3.4,2.8,5
-                        c-6,10.4-12,20.7-18.1,31.1c-8.4,14.5-16.8,29.1-25.3,43.6c-0.4,0-0.5-0.2-0.6-0.5c-0.1-0.8,0.2-1.5,0.4-2.3
-                        c4.1-15,0.7-28.3-9.6-39.7c-6.3-6.9-14.3-10.8-23.5-12.1c-12-1.7-22.6,1.4-32.1,8.9c-1.7,1.3-2.8,3.2-4.8,4.2
-                        c-0.4,0-0.6-0.2-0.7-0.5c4.8-8.3,9.5-16.6,14.3-24.9c19.8-34.4,39.6-68.8,59.5-103.1C84,29.27,84.3,28.97,84.5,28.57" fill="#FABC04"/>
-                      <path class="st2" d="M10.4,157.97c1.9-1.7,3.7-3.5,5.7-5.1c24.3-19.2,60.8-5.3,66.1,25.1c1.3,7.3,0.6,14.3-1.6,21.3
-                        c-0.1,0.6-0.2,1.1-0.4,1.7c-0.9,1.6-1.7,3.3-2.7,4.9c-8.9,14.7-22,22-39.2,20.9c-19.7-1.4-35.2-16.2-37.9-35.8
-                        c-1.3-9.5,0.6-18.4,5.5-26.6c1-1.8,2.2-3.4,3.3-5.2C9.7,158.77,9.5,157.97,10.4,157.97" fill="#34A852"/>
-                      <path class="st1" d="M10.4,157.97c-0.4,0.4-0.4,1.1-1.1,1.2c-0.1-0.7,0.3-1.1,0.7-1.6L10.4,157.97" fill="#FABC04"/>
-                      <path class="st3" d="M80.2,200.97c-0.4-0.7,0-1.2,0.4-1.7c0.1,0.1,0.3,0.3,0.4,0.4L80.2,200.97" fill="#E1C025"/>
-                    </g>
-                  </svg>
+                  <svg id="fi_15713432" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m202.33 53.44a80.7 80.7 0 0 0 -18.8 22.06l-161.24 278.08a81.62 81.62 0 0 0 29.58 111.22 81.62 81.62 0 0 0 111.22-29.58l138.59-239c-30.58-43.9-75.19-107.93-99.35-142.78z" fill="#febd00"></path><circle cx="92.69" cy="394.4" fill="#25a84a" r="81.38"></circle><rect fill="#2e8add" height="484.21" rx="81.38" transform="matrix(-.866 .5 -.5 -.866 751.31 309.71)" width="162.76" x="252.78" y="13.4"></rect></svg>
                 </span>
                 <div>
                   <h3>Option Google Ads</h3>
