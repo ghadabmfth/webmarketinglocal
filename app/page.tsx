@@ -284,6 +284,7 @@ export default function AccueilPage() {
             <aside className="pack-card reveal d1">
               <span className="pack-badge"><span className="pb-dot" /> <span>Pack Web Sérénité</span></span>
               <h3 className="pack-card-title">Votre visibilité Google gérée pour vous</h3>
+              <p className="pack-card-sub">Tout inclus — site, SEO, maintenance, suivi</p>
               <div className="pack-price"><span className="pp-amount" style={{ fontFamily: "var(--font-display)" }}>245 €</span><span className="pp-unit">HT / mois</span></div>
               <p className="pack-fine">Engagement 12 mois à compter de la mise en ligne · TVA 20 % en sus</p>
               <div className="pack-divider" />

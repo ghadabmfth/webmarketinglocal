@@ -285,16 +285,14 @@ export default function NotreOffrePage() {
               </ul>
             </div>
 
-            <aside className="pack-card pack-card--split reveal d1">
-              <div className="pack-card-head">
-                <span className="pack-badge" data-s="no-85"><span className="pb-dot" data-s="no-86" /> <span data-s="no-87">Pack Web Sérénité</span></span>
-                <h3 className="pack-card-title">Votre visibilité Google gérée pour vous</h3>
-                <p className="pack-card-sub">Tout inclus — site, SEO, maintenance, suivi</p>
-                <div className="pack-price"><span className="pp-amount" data-s="no-88">245 €</span><span className="pp-unit">HT / mois</span></div>
-                <p className="pack-fine">Engagement 12 mois à compter de la mise en ligne · TVA 20 % en sus</p>
-              </div>
-              <div className="pack-card-body" data-s="no-89">
-                <ul className="pack-card-list">
+            <aside className="pack-card reveal d1">
+              <span className="pack-badge"><span className="pb-dot" /> <span>Pack Web Sérénité</span></span>
+              <h3 className="pack-card-title">Votre visibilité Google gérée pour vous</h3>
+              <p className="pack-card-sub">Tout inclus — site, SEO, maintenance, suivi</p>
+              <div className="pack-price"><span className="pp-amount" style={{ fontFamily: "var(--font-display)" }}>245 €</span><span className="pp-unit">HT / mois</span></div>
+              <p className="pack-fine">Engagement 12 mois à compter de la mise en ligne · TVA 20 % en sus</p>
+              <div className="pack-divider" />
+              <ul className="pack-card-list">
                   <li><span className="pcl-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#F7B131" strokeWidth="2" /><path d="M8 12.4l2.6 2.6 5-5.6" stroke="#F7B131" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg></span><span data-s="no-90">Création ou refonte de votre site internet</span></li>
                   <li><span className="pcl-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#F7B131" strokeWidth="2" /><path d="M8 12.4l2.6 2.6 5-5.6" stroke="#F7B131" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg></span><span data-s="no-91">Maintenance technique continue — rien à gérer</span></li>
                   <li><span className="pcl-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#F7B131" strokeWidth="2" /><path d="M8 12.4l2.6 2.6 5-5.6" stroke="#F7B131" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg></span><span data-s="no-92">Stratégie SEO locale personnalisée</span></li>
@@ -304,11 +302,9 @@ export default function NotreOffrePage() {
                   <li><span className="pcl-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#F7B131" strokeWidth="2" /><path d="M8 12.4l2.6 2.6 5-5.6" stroke="#F7B131" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg></span><span data-s="no-96">Rapport mensuel de résultats clair</span></li>
                   <li><span className="pcl-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#F7B131" strokeWidth="2" /><path d="M8 12.4l2.6 2.6 5-5.6" stroke="#F7B131" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg></span><span data-s="no-97">Interlocuteur dédié et réactif</span></li>
                 </ul>
-                <Link href="/contact" className="btn pack-btn-card" data-s="no-98">
-                  Demandez votre diagnostic gratuit <BtnArrow />
-                </Link>
-                <p className="pack-card-foot">Gratuit et sans engagement · Réponse sous 48h</p>
-              </div>
+              <Link href="/contact" className="btn pack-btn-card">
+                Demandez votre diagnostic gratuit <BtnArrow />
+              </Link>
             </aside>
           </div>
         </div>
