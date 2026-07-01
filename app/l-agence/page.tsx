@@ -343,7 +343,7 @@ export default function AgencePage() {
           <div className="founder-card reveal">
             <div className="founder-media">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img id="agence-fondateur" className="founder-photo" src="/assets/hero-jchombart.png" alt="Photo du fondateur" loading="lazy" />
+              <img id="agence-fondateur" className="founder-photo" src="/assets/Photo-J-Chombard-de-Lawe.jpg" alt="Photo du fondateur" loading="lazy" />
             </div>
             <div className="founder-copy">
               <span className="eyebrow" data-s="ag-62">Le fondateur</span>
