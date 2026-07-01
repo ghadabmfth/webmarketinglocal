@@ -183,13 +183,7 @@ export default function NotreOffrePage() {
             </article>
             <article className="pain-card reveal">
               <div className="pain-ic" data-s="no-58">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 12 L12 3 A9 9 0 0 1 21 12 Z" fill="#FBBC04" />
-                  <path d="M12 12 L21 12 A9 9 0 0 1 12 21 Z" fill="#4285F4" />
-                  <path d="M12 12 L12 21 A9 9 0 0 1 3 12 Z" fill="#E5203C" />
-                  <path d="M12 12 L3 12 A9 9 0 0 1 12 3 Z" fill="#23768D" />
-                  <circle cx="12" cy="12" r="2.3" fill="#fff" />
-                </svg>
+                <svg id="fi_15713432" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m202.33 53.44a80.7 80.7 0 0 0 -18.8 22.06l-161.24 278.08a81.62 81.62 0 0 0 29.58 111.22 81.62 81.62 0 0 0 111.22-29.58l138.59-239c-30.58-43.9-75.19-107.93-99.35-142.78z" fill="#febd00"></path><circle cx="92.69" cy="394.4" fill="#25a84a" r="81.38"></circle><rect fill="#2e8add" height="484.21" rx="81.38" transform="matrix(-.866 .5 -.5 -.866 751.31 309.71)" width="162.76" x="252.78" y="13.4"></rect></svg>
               </div>
               <h4 data-s="no-59">Vous ne savez pas ce qui fonctionne</h4>
               <p data-s="no-60">Pas de visibilité sur ce que rapportent vos actions digitales, ni sur quoi agir en priorité.</p>
