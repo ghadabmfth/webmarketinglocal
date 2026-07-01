@@ -5067,3 +5067,19 @@ section#offre {
 span.tm-corner.tm-corner--bl {
     background: #23768d;
 }
+
+/* Reviews nav — match the projects carousel arrow style */
+.rev-nav {
+    background: var(--teal);
+    color: #fff;
+    border: none;
+}
+.rev-nav:hover {
+    background: #e5203c;
+    color: #fff;
+}
+.rev-nav:disabled {
+    background: var(--teal);
+    color: #fff;
+    opacity: .35;
+}
