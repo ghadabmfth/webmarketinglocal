@@ -8,7 +8,7 @@ export default function SiteFooter() {
         <div className="footer-grid">
           <div>
             <Link href="/" className="logo" aria-label="Marketing Local">
-              <Logo className="logo-svg logo-svg--footer" ringColor="#ffffff" />
+              <Logo className="logo-svg logo-svg--footer" ringColor="#ffffff" textColor="#ffffff" />
             </Link>
             <p className="blurb">L&apos;agence web qui rend les artisans, commerçants et TPE visibles en ligne — simplement.</p>
           </div>
