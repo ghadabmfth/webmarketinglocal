@@ -5059,3 +5059,11 @@ section#projets {
 .histoire-grid span.eyebrow {
     color: #23768d;
 }
+
+section#offre {
+    background: #f6fafb;
+}
+
+span.tm-corner.tm-corner--bl {
+    background: #23768d;
+}
