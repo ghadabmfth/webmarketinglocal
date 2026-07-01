@@ -299,7 +299,7 @@ export default function NotreOffrePage() {
               <Link href="/contact" className="btn pack-btn-card">
                 Demandez votre diagnostic gratuit <BtnArrow />
               </Link>
-              <p class="pack-card-foot">Gratuit et sans engagement · Réponse sous 48h</p>
+              <p className="pack-card-foot">Gratuit et sans engagement · Réponse sous 48h</p>
             </aside>
           </div>
         </div>
