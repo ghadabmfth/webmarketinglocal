@@ -5141,3 +5141,11 @@ a.blog-media {aspect-ratio: 4 / 2;}
 .cta-band .phone-link svg {
     color: #f7b131;
 }
+
+#offre p.pack-card-foot {
+    color: white !important;
+    padding-top: 10px;
+    font-size: 12px !important;
+    font-style: italic;
+    padding-left: 40px;
+}
