@@ -5121,5 +5121,16 @@ span.bc-current {
 
 a.blog-media {aspect-ratio: 4 / 2;}
 
-.article-container {
+.header-actions .btn {
+    background: transparent!important;
+    box-shadow: none;
+    gap: 10px;
+}
+
+.header-actions .btn .btn-arrow {
+    position: relative;
+    top: 0px;
+    transform: translateY(0%);
+    width: 46px;
+    height: 46px;
 }
