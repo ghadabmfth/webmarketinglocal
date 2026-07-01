@@ -252,12 +252,12 @@ p { margin: 0; }
   display: flex;
   align-items: center;
   gap: 6px;
-  background: #F4F5F6;
+  background: transparent;
   border-radius: var(--r-pill);
   padding: 7px;
   transition: background .25s var(--ease);
 }
-.scrolled .nav-pill { background: #EEF1F2; }
+.scrolled .nav-pill { background: transparent; }
 .nav-pill a {
   position: relative;
   font-size: 15px;
@@ -375,6 +375,22 @@ p { margin: 0; }
 .nav-dd-label { line-height: 1.25; }
 
 .header-actions { display: flex; align-items: center; gap: 22px; }
+
+/* Header CTA — light contained pill, no overflowing badge */
+.header-actions .btn {
+  background: #fff;
+  color: var(--ink);
+  padding: 6px 6px 6px 24px;
+  box-shadow: 0 1px 0 var(--line), var(--shadow-sm);
+}
+.header-actions .btn .btn-arrow {
+  position: static;
+  width: 38px;
+  height: 38px;
+  border: none;
+}
+.header-actions .btn:hover { background: #fff; transform: translateY(-3px); }
+.header-actions .btn:active { background: #fff; transform: translateY(-1px) scale(.99); }
 .phone-link {
   display: inline-flex;
   align-items: center;
