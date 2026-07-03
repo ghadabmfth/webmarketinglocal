@@ -309,44 +309,49 @@ export default function AccueilPage() {
         <div className="container">
           <div className="section-head reveal">
             <span className="eyebrow">COMMENT ÇA MARCHE</span>
-            <h2>Trois étapes, zéro prise de tête ...</h2>
+            <h2>Quatre étapes, zéro prise de tête ...</h2>
             <p>Simple, cadré, sans surprise... On avance ensemble, étape par étape — et vous voyez les résultats arriver.</p>
           </div>
-          <div className="timeline">
-            <span className="tl-line" aria-hidden="true" />
-            <div className="tl-step reveal">
-              <div className="tl-node teal" style={{ backgroundColor: "rgb(255, 234, 233)" }}>
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
-                <span className="tl-num" style={{ fontFamily: "var(--font-display)", backgroundColor: "rgb(229, 32, 60)", color: "#fff" }}>01</span>
+          <div className="timeline timeline-4">
+            <span className="tl-line" aria-hidden="true" data-s="no-116" />
+            <div className="tl-step reveal d1">
+              <div className="tl-node teal" data-s="no-117">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" data-s="no-118" /><line x1="21" y1="21" x2="16.65" y2="16.65" data-s="no-119" /></svg>
+                <span className="tl-num" data-s="no-120">01</span>
               </div>
               <div className="tl-text">
                 <h4>Diagnostic gratuit</h4>
-                <p>On analyse votre situation, votre marché local et vos objectifs. Un échange de 30 minutes, sans engagement, pour valider si on peut vous aider concrètement.</p>
+                <p>On analyse votre situation, votre marché local et vos objectifs. Un échange de 30 minutes, sans engagement.</p>
               </div>
             </div>
-            <div className="tl-step reveal d1">
+            <div className="tl-step reveal d2" data-s="no-121">
               <div className="tl-node amber">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" /><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" /><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" /><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" /></svg>
-                <span className="tl-num" style={{ fontFamily: "var(--font-display)", backgroundColor: "rgb(247, 177, 49)" }}>02</span>
+                <span className="tl-num" data-s="no-122">02</span>
               </div>
               <div className="tl-text">
-                <h4>Lancement &amp; onboarding</h4>
-                <p>Brief stratégique, choix des mots-clés, architecture du site, brief photos. On définit ensemble la stratégie avant de produire quoi que ce soit.</p>
+                <h4>Onboarding stratégique</h4>
+                <p>Brief complet, choix des mots-clés prioritaires, architecture du site et brief graphique. On cadre tout avant de produire.</p>
               </div>
             </div>
             <div className="tl-step reveal d3">
-              <div className="tl-node amber">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="6" y1="20" x2="6" y2="15" /><line x1="12" y1="20" x2="12" y2="9" /><line x1="18" y1="20" x2="18" y2="5" /><line x1="3" y1="20" x2="21" y2="20" /></svg>
-                <span
-                  className="tl-num"
-                  style={{ fontFamily: "var(--font-display)", backgroundColor: "rgb(35, 118, 141)", border: "1px solid" }}
-                >
-                  03
-                </span>
+              <div className="tl-node amber" data-s="no-123">
+                <svg width="28" height="28" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="#23768d"><path d="m57 5h-50c-2.76 0-5 2.24-5 5v34c0 2.76 2.24 5 5 5h16.21l-2.89 5.65c-.47.93-.43 2.01.11 2.9.56.91 1.53 1.45 2.61 1.45h17.91c1.08 0 2.05-.54 2.61-1.45.54-.89.59-1.97.11-2.9l-2.89-5.65h16.21c2.76 0 5-2.24 5-5v-34c0-2.76-2.24-5-5-5zm3 5v31h-23v-34h20c1.65 0 3 1.35 3 3zm-53-3h28v34h-31v-31c0-1.65 1.35-3 3-3zm34.89 48.56c.22.44.05.81-.04.95-.09.15-.36.49-.9.49h-17.91c-.54 0-.81-.35-.9-.49-.08-.14-.26-.51-.04-.95l3.35-6.56h13.08l3.35 6.56zm18.11-11.56c0 1.65-1.35 3-3 3h-50c-1.65 0-3-1.35-3-3v-1h56z"></path><path d="m9 24h22c1.1 0 2-.9 2-2v-10c0-1.1-.9-2-2-2h-22c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2zm0-12h22v10s-22 0-22 0z"></path><path d="m9 38h8c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2h-8c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2zm0-10h8v8s-8 0-8 0z"></path><path d="m31 26h-8c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2zm-8 10v-8h8v8s-8 0-8 0z"></path><path d="m56 36h-15c-.55 0-1 .45-1 1s.45 1 1 1h15c.55 0 1-.45 1-1s-.45-1-1-1z"></path><path d="m56 31h-15c-.55 0-1 .45-1 1s.45 1 1 1h15c.55 0 1-.45 1-1s-.45-1-1-1z"></path><path d="m56 26h-15c-.55 0-1 .45-1 1s.45 1 1 1h15c.55 0 1-.45 1-1s-.45-1-1-1z"></path><path d="m52.4 20.8c.18.13.39.2.6.2.3 0 .6-.14.8-.4l3-4c.27-.36.27-.84 0-1.2l-3-4c-.33-.44-.96-.53-1.4-.2s-.53.96-.2 1.4l2.55 3.4-2.55 3.4c-.33.44-.24 1.07.2 1.4z"></path><path d="m39.2 16.6 3 4c.2.26.5.4.8.4.21 0 .42-.07.6-.2.44-.33.53-.96.2-1.4l-2.55-3.4 2.55-3.4c.33-.44.24-1.07-.2-1.4s-1.07-.24-1.4.2l-3 4c-.27.36-.27.84 0 1.2z"></path><path d="m46.76 20.97c.08.02.16.03.24.03.45 0 .86-.3.97-.76l2-8c.13-.54-.19-1.08-.73-1.21-.54-.14-1.08.19-1.21.73l-2 8c-.13.54.19 1.08.73 1.21z"></path></svg>
+                <span className="tl-num" data-s="no-127">03</span>
               </div>
               <div className="tl-text">
-                <h4>Mise en ligne &amp; suivi</h4>
-                <p>Votre site est mis en ligne. La stratégie SEO démarre. Chaque mois, vous recevez un rapport de résultats et on optimise ensemble.</p>
+                <h4>Lancement du site</h4>
+                <p>Création ou refonte, mise en ligne et optimisation de votre fiche Google. La stratégie SEO locale démarre.</p>
+              </div>
+            </div>
+            <div className="tl-step reveal d1">
+              <div className="tl-node teal">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="6" y1="20" x2="6" y2="15" /><line x1="12" y1="20" x2="12" y2="9"/><line x1="18" y1="20" x2="18" y2="5" /><line x1="3" y1="20" x2="21" y2="20"  /></svg>
+                <span className="tl-num">04</span>
+              </div>
+              <div className="tl-text">
+                <h4>Suivi mensuel</h4>
+                <p>Rapport de résultats, optimisations continues et point régulier avec votre interlocuteur dédié.</p>
               </div>
             </div>
           </div>
