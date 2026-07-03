@@ -4,7 +4,7 @@
    Palette pulled from the actual frame (teal + amber + coral/orange).
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,600;1,700;1,800&family=Inter:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap');
 
 :root {
   /* Brand palette (from frame) */
@@ -1715,7 +1715,7 @@ p { margin: 0; }
   border: 5px solid #fff;
   transition: transform .22s var(--ease);
 }
-.tl-node.teal { background: var(--teal-100); color: var(--teal); }
+.tl-node.teal { background: var(--teal-100); color: #e5203c; }
 .tl-node.amber { background: var(--amber-cream); color: var(--amber-700); }
 .tl-step:hover .tl-node { transform: translateY(-4px); }
 .tl-num {
