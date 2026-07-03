@@ -250,7 +250,7 @@ export default function NotreOffrePage() {
           <div className="pack-grid">
             <div className="pack-left reveal">
               <span className="eyebrow" data-s="no-81">L&apos;offre socle</span>
-              <h2 className="pack-title" data-s="no-82">Un socle de visibilité <span className="hl" data-s="no-83">durable</span></h2>
+              <h2 className="pack-title" data-s="no-82">Un socle solide pour une visibilité <span className="hl" data-s="no-83">durable & continue</span></h2>
               <p className="pack-lead" data-s="no-84">Le Pack Web Sérénité est une solution complète et déléguée. Vous n&apos;avez plus à vous occuper de votre présence web — on s&apos;en charge.</p>
               <ul className="socle-list">
                 <li className="socle-item reveal">
@@ -354,7 +354,7 @@ export default function NotreOffrePage() {
                 </span>
                 <div>
                   <h3>Option Google Ads</h3>
-                  <p className="opt-desc">Des campagnes Google Ads gérées pour vous, pour générer de la visibilité et des demandes à court terme — en complément du SEO.</p>
+                  <p className="opt-desc">Des campagnes Google Ads gérées pour vous, pour générer rapidement de la visibilité et des demandes à court terme — en complément du SEO.</p>
                 </div>
               </div>
               <div className="ads-rate">

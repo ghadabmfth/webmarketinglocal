@@ -1450,7 +1450,7 @@ p { margin: 0; }
   box-shadow: inset 0 0 0 1.5px var(--line);
 }
 .socle-txt b { display: block; font-family: var(--font-display); font-size: 18px; font-weight: 700; color: var(--ink); }
-.socle-txt > span { display: block; font-size: 14px; color: var(--muted); line-height: 1.55; margin-top: 4px; }
+.socle-txt > span { display: block; font-size: 14px; font-weight: 300; color: var(--muted); line-height: 1.55; margin-top: 4px; }
 
 /* Split pack card — teal header + white body */
 .pack-card--split { background: #fff !important; padding: 0 !important; overflow: hidden; border-radius: 30px; box-shadow: var(--shadow-lg); }
@@ -1645,7 +1645,7 @@ p { margin: 0; }
 }
 .ads-rate-txt { font-size: 15px; color: var(--body); line-height: 1.4; }
 .ads-rate-txt b { color: var(--ink); font-weight: 700; }
-.ads-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
+.ads-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 18px; padding-top: 10px;}
 .ads-list li { display: flex; align-items: flex-start; gap: 13px; font-size: 15.5px; color: var(--ink-2); line-height: 1.4; }
 .ads-c {
   flex: none;
@@ -5171,4 +5171,35 @@ a.blog-media {aspect-ratio: 4 / 2;}
 
 .d3 .tl-node {
     background: #d8eaee;
+}
+
+body.page-no[data-s=no-68], body.page-no [data-s=no-68] {
+    background-color: #d8eaee;
+    color: #23768d;
+}
+
+.pack-card .btn:hover .btn-arrow {
+    background: #e5203c;
+    color: white;
+}
+
+body.page-re[data-s=re-19], body.page-re [data-s=re-19] {
+    font-weight: 800;
+}
+
+h1.contact-title {
+    position: relative;
+    z-index: 99;
+}
+
+.certifs {
+    padding-top: 0px !important;
+}
+
+body.page-accueil[data-s=acc-130], body.page-accueil [data-s=acc-130], body.page-no[data-s=no-112], body.page-no [data-s=no-112], body.page-no[data-s=no-136], body.page-no [data-s=no-136], body.page-ag[data-s=ag-56], body.page-ag [data-s=ag-56], body.page-ag[data-s=ag-77], body.page-ag [data-s=ag-77] {
+    max-width: 800px;
+}
+
+.rea-filterbar.reveal.in {
+    padding: 0px;
 }
