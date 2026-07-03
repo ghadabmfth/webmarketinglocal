@@ -416,9 +416,9 @@ export default function NotreOffrePage() {
               </div>
             </div>
             <div className="tl-step reveal d1">
-              <div className="tl-node teal" data-s="no-128">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="6" y1="20" x2="6" y2="15" data-s="no-129" /><line x1="12" y1="20" x2="12" y2="9" data-s="no-130" /><line x1="18" y1="20" x2="18" y2="5" data-s="no-131" /><line x1="3" y1="20" x2="21" y2="20" data-s="no-132" /></svg>
-                <span className="tl-num" data-s="no-133">04</span>
+              <div className="tl-node teal">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="6" y1="20" x2="6" y2="15" /><line x1="12" y1="20" x2="12" y2="9"/><line x1="18" y1="20" x2="18" y2="5" /><line x1="3" y1="20" x2="21" y2="20"  /></svg>
+                <span className="tl-num">04</span>
               </div>
               <div className="tl-text">
                 <h4>Suivi mensuel</h4>
