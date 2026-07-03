@@ -4964,7 +4964,7 @@ body.page-a4[data-s="a4-16"], body.page-a4 [data-s="a4-16"] { color: #162435; }
 }
 
 section.problem {
-    padding: 50px 0px;
+    padding: 50px 0px 0px;
 }
 
 .pack-btn-card .btn-arrow {
